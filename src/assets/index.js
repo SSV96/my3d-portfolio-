@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import hackerRank from "./tech/hacker-rank.png";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,11 +22,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import nestjs from "./tech/nestjs.png";
+import redis from "./tech/redis.png";
+import postgres from "./tech/postgres.png";
+import awsLamda from "./tech/awsLamda.png";
+import aws from "./tech/aws.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import blocktena from "./company/blocktena.png";
+import leagueSportsCo from "./company/lsc.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -48,14 +54,19 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  hackerRank,
+  nestjs,
+  nextjs,
+  redis,
+  aws,
+  awsLamda,
+  postgres,
   redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  blocktena,
+  leagueSportsCo,
   carrent,
   jobit,
   tripguide,

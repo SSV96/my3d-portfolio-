@@ -36,15 +36,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        A Full Stack Developer with 3+ years of hands-on experience in backend
-        development, cloud infrastructure, and microservices, specializing in
-        React.js, Node.js, Nest.js, Express.js, and NoSQL databases (MongoDB,
-        Redis). Skilled in building scalable, maintainable applications in an
-        Agile environment, with a strong focus on DevOps practices and
-        continuous delivery pipelines. Experienced in collaborating with
-        cross-functional teams to design and implement new features, manage
-        cloud infrastructure, and ensure high performance and reliability of
-        mission-critical systems.
+        I`am Full Stack Developer with 3+ years of hands-on experience in
+        backend development, cloud infrastructure, and microservices,
+        specializing in React.js, Node.js, Nest.js, Express.js, and NoSQL
+        databases (MongoDB, Redis). Skilled in building scalable, maintainable
+        applications in an Agile environment, with a strong focus on DevOps
+        practices and continuous delivery pipelines. Experienced in
+        collaborating with cross-functional teams to design and implement new
+        features, manage cloud infrastructure, and ensure high performance and
+        reliability of mission-critical systems.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
