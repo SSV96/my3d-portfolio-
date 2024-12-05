@@ -8,7 +8,7 @@ import {
   Works,
   Contact,
   StarsCanvas,
-  // Certifications,
+  Certifications,
   Achievements,
 } from "./components";
 function App() {
@@ -24,8 +24,8 @@ function App() {
           <Experience />
           <Tech />
           <Works />
+          <Certifications />
           <Achievements />
-          {/* <Certifications /> */}
           <div className="relaive z-0">
             <Contact />
             <StarsCanvas />
