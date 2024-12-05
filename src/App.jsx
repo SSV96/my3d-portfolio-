@@ -5,10 +5,10 @@ import {
   About,
   Tech,
   Experience,
-  Works,
+  // Works,
   Contact,
   StarsCanvas,
-  // Certifications,
+  Certifications,
   Achievements,
 } from "./components";
 function App() {
@@ -23,9 +23,9 @@ function App() {
           <About />
           <Experience />
           <Tech />
-          <Works />
+          {/* <Works /> */}
+          <Certifications />
           <Achievements />
-          {/* <Certifications /> */}
           <div className="relaive z-0">
             <Contact />
             <StarsCanvas />
