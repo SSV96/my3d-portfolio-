@@ -5,7 +5,7 @@ import {
   About,
   Tech,
   Experience,
-  Works,
+  // Works,
   Contact,
   StarsCanvas,
   Certifications,
@@ -23,7 +23,7 @@ function App() {
           <About />
           <Experience />
           <Tech />
-          <Works />
+          {/* <Works /> */}
           <Certifications />
           <Achievements />
           <div className="relaive z-0">
