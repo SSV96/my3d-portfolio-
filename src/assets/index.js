@@ -31,10 +31,12 @@ import aws from "./tech/aws.png";
 
 import blocktena from "./company/blocktena.png";
 import leagueSportsCo from "./company/lsc.jpg";
+import LinkedIn from "./company/linkedin_logo.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import CreatingAndHostingAFullStackSite from "./certification/CreatingAndHostingAFullStackSite.png";
+import HtmlEssentialTrainingLinkedIn from "./certification/HtmlEssentialTrainingLinkedIn.png";
+import NodejsIntermediate from "./certification/NodejsIntermediate.png";
+import ReactHackerRole from "./certification/ReactHackerRole.png";
 
 export {
   logo,
@@ -67,7 +69,9 @@ export {
   threejs,
   blocktena,
   leagueSportsCo,
-  carrent,
-  jobit,
-  tripguide,
+  LinkedIn,
+  CreatingAndHostingAFullStackSite,
+  HtmlEssentialTrainingLinkedIn,
+  NodejsIntermediate,
+  ReactHackerRole,
 };

@@ -19,15 +19,20 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
+  // carrent,
+  // jobit,
+  // tripguide,
   threejs,
   blocktena,
   leagueSportsCo,
   aws,
   awsLamda,
   postgres,
+  CreatingAndHostingAFullStackSite,
+  HtmlEssentialTrainingLinkedIn,
+  NodejsIntermediate,
+  ReactHackerRole,
+  LinkedIn,
 } from "../assets";
 
 export const navLinks = [
@@ -173,33 +178,114 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const certifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "HTML & CSS Essential Training",
+    issuedBy: "Linked In",
+    icon: LinkedIn,
+    skills: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: HtmlEssentialTrainingLinkedIn,
+    link: "https://media.licdn.com/dms/image/v2/D561FAQG55sr1f-XDWg/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1682097246005?e=1733990400&v=beta&t=vOTLYZgdopjjPiXUmJeycNaeFDy8NJ5U6WuKlowweVs",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Creating and Hosting a Full-Stack Site",
+    issuedBy: "Linked In",
+    skills: "React,Tailwind Css ,Redux and Vercel ",
+    icon: LinkedIn,
+    skills: [
+      {
+        name: "React Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "red-text-gradient",
+      },
+
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CreatingAndHostingAFullStackSite,
+    link: "https://media.licdn.com/dms/image/v2/C561FAQHVD6BUknwQFw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1672569005067?e=1733990400&v=beta&t=f4hmQhacFv4jsup8Yj4ahCRNFDnwHBD5-oBm6erM1bo",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "React.js Essential Training",
+    issuedBy: "Linked In",
+    icon: LinkedIn,
+    skills: [
+      {
+        name: "React Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://media.licdn.com/dms/image/v2/C561FAQEnvUHtcwmvLw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1671870014540?e=1733990400&v=beta&t=QRhF2UfkXmehKMoUZvJ_8HIJziyxHiPKGVS1lfrsVxY",
+    link: "https://media.licdn.com/dms/image/v2/C561FAQEnvUHtcwmvLw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1671870014540?e=1733990400&v=beta&t=QRhF2UfkXmehKMoUZvJ_8HIJziyxHiPKGVS1lfrsVxY",
   },
 ];
-
+const achievements = [
+  {
+    name: "Certificate of Accomplishment Backend (Node Js)",
+    issuedBy: "Hacker Rank",
+    icon: hackerRank,
+    skills: [
+      {
+        name: "Node Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: NodejsIntermediate,
+    link: "https://www.hackerrank.com/certificates/f68f56fe6d9c",
+  },
+  {
+    name: "Certificate of Accomplishment Frontend (React)",
+    issuedBy: "Hacker Rank",
+    icon: hackerRank,
+    skills: [
+      {
+        name: "React Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ReactHackerRole,
+    link: "https://www.hackerrank.com/certificates/04b0d42cb9c1",
+  },
+];
 const projects = [
   {
     name: "Car Rent",
@@ -219,7 +305,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
@@ -240,7 +326,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
@@ -261,9 +347,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "tripguide",
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  certifications,
+  achievements,
+  projects,
+};
