@@ -33,6 +33,7 @@ import {
   NodejsIntermediate,
   ReactHackerRole,
   LinkedIn,
+  dotnet,
 } from "../assets";
 
 export const navLinks = [
@@ -131,6 +132,11 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
+  {
+    name: "DotNet Core WebApi",
+    icon: dotnet,
+  },
+
   {
     name: "git",
     icon: git,

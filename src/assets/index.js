@@ -28,6 +28,7 @@ import redis from "./tech/redis.png";
 import postgres from "./tech/postgres.png";
 import awsLamda from "./tech/awsLamda.png";
 import aws from "./tech/aws.png";
+import dotnet from "./tech/dotnet.png";
 
 import blocktena from "./company/blocktena.png";
 import leagueSportsCo from "./company/lsc.jpg";
@@ -47,6 +48,7 @@ export {
   github,
   menu,
   close,
+  dotnet,
   css,
   docker,
   figma,
