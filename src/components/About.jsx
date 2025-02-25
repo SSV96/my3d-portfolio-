@@ -36,7 +36,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Frontend Developer with 3+ years of hands-on experience in
+        I am a Software Developer with 3+ years of hands-on experience in
         building dynamic, scalable web applications, specializing in React.js,
         Proficient in integrating blockchain Skilled in crafting responsive,
         high-performance UIs with modern JavaScript/TypeScript frameworks,
