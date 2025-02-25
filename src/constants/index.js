@@ -41,6 +41,7 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+  { id: "tech", title: "Skills" },
   {
     id: "experience",
     title: "Experience",
@@ -153,7 +154,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Engineer",
+    title: "Software Engineer",
     company_name: "Blocktena",
     icon: blocktena,
     iconBg: "#ffff",
@@ -167,8 +168,8 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Engineer",
-    company_name: "League Sports Co (Previously Zone XTZ Esports)",
+    title: "Software Engineer",
+    company_name: "League Sports Co (Subsidiary  : XTZ Esports)",
     icon: leagueSportsCo,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -222,28 +223,28 @@ const certifications = [
     image: CreatingAndHostingAFullStackSite,
     link: "https://media.licdn.com/dms/image/v2/C561FAQHVD6BUknwQFw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1672569005067?e=1733990400&v=beta&t=f4hmQhacFv4jsup8Yj4ahCRNFDnwHBD5-oBm6erM1bo",
   },
-  {
-    name: "React.js Essential Training",
-    issuedBy: "Linked In",
-    icon: LinkedIn,
-    skills: [
-      {
-        name: "React Js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express",
-        color: "pink-text-gradient",
-      },
-    ],
-    image:
-      "https://media.licdn.com/dms/image/v2/C561FAQEnvUHtcwmvLw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1671870014540?e=1733990400&v=beta&t=QRhF2UfkXmehKMoUZvJ_8HIJziyxHiPKGVS1lfrsVxY",
-    link: "https://media.licdn.com/dms/image/v2/C561FAQEnvUHtcwmvLw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1671870014540?e=1733990400&v=beta&t=QRhF2UfkXmehKMoUZvJ_8HIJziyxHiPKGVS1lfrsVxY",
-  },
+  // {
+  //   name: "React.js Essential Training",
+  //   issuedBy: "Linked In",
+  //   icon: LinkedIn,
+  //   skills: [
+  //     {
+  //       name: "React Js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Express",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image:
+  //     "https://media.licdn.com/dms/image/v2/C561FAQEnvUHtcwmvLw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1671870014540?e=1733990400&v=beta&t=QRhF2UfkXmehKMoUZvJ_8HIJziyxHiPKGVS1lfrsVxY",
+  //   link: "https://media.licdn.com/dms/image/v2/C561FAQEnvUHtcwmvLw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1671870014540?e=1733990400&v=beta&t=QRhF2UfkXmehKMoUZvJ_8HIJziyxHiPKGVS1lfrsVxY",
+  // },
 ];
 const achievements = [
   {
