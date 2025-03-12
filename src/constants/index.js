@@ -154,17 +154,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer Intern",
+    company_name: "Blocktena",
+    icon: blocktena,
+    iconBg: "#ffff",
+    date: "March 2022 - Aug 2023",
+    points: [
+      "Developed an Ambulance Booking platform",
+      "Developed a Dairymilk Distributed API",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Blocktena",
     icon: blocktena,
     iconBg: "#ffff",
-    date: "March 2022 - January 2023",
+    date: "Aug 2022 - January 2023",
     points: [
-      "Designed and developed interactive UI components for NFT platforms using React.js and Next.js, ensuring a seamless user experience for minting, trading, and auctioning NFTs.",
-      "Integrated Ether.js to enable real-time interactions with Ethereum smart contracts, supporting ERC-721 and ERC-1155 token standards for NFT management.",
-      "Built an intuitive NFT auction system with features like live bidding, automatic auction closure, and real-time status updates, enhancing user engagement",
-      "Developed real-time auction monitoring, displaying countdown timers, bid history, and dynamic UI updates based on blockchain events.",
-      "Created Games in React to add games.",
+      "Developed backend infrastructure for NFT-related features using Nest.js, ensuring seamless integration with Web3 technologies.",
+      "Designed and structured data models for NFTs, supporting ERC-721 and ERC-1155 token standards for minting and trading.",
+      "Implemented auctioning systems with real-time monitoring, scheduling cron jobs for auction status updates.",
+      "Integrated SendGrid API for automated email notifications related to NFT transactions.",
+      "Developed backend logic to support NFT marketplace features, including bidding and ownership transfers.",
     ],
   },
   {
@@ -174,10 +185,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Designed and developed referral, points streak, and rewards modules for a Telegram mini-app, boosting user retention and engagement.",
-      "Integrated Mixpanel for advanced user analytics, enabling data-driven decisions to enhance user experience and optimize in-app features.",
-      "Developed an interactive Player vs Player (PvP) game UI using React.js, enhancing user engagement with real-time competitive gameplay.",
-      "Optimized UI performance for high-traffic gaming applications, collaborating closely with SRE teams to maintain high availability and fault tolerance.",
+      "Developed backend services for multiple Telegram Mini Apps using NestJS, Kafka, and Redis Streams.",
+      "Implemented GraphQL APIs and GraphQL Federation to enhance data interaction across microservices.",
+      "Integrated MixPanel API for product analytics, improving insights into user engagement and feature performance.",
+      "Implemented leaderboard, referral, and streak reward modules for user retention and engagement.",
+      "Developed event-driven microservices architecture using Kafka and Redis Streams for real-time gaming applications.",
+      "Designed and optimized backend performance for high-traffic gaming applications with a focus on scalability.",
     ],
   },
 ];
