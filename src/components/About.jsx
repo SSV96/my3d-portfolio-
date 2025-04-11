@@ -36,8 +36,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Software Developer with 2.6 years of professional experience and
-        6 months of internship experience, specializing in backend development
+        I am a Software Developer with 3 years of professional experience and
+        specializing in backend development
         using Node.js and NestJS. I have expertise in building scalable,
         event-driven microservices architecture using Kafka and Redis Streams.
         Proficient in designing GraphQL APIs, integrating third-party services,
