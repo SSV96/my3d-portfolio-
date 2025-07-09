@@ -34,6 +34,7 @@ import {
   ReactHackerRole,
   LinkedIn,
   dotnet,
+  andersen
 } from "../assets";
 
 export const navLinks = [
@@ -183,7 +184,7 @@ const experiences = [
     company_name: "League Sports Co (Subsidiary  : XTZ Esports)",
     icon: leagueSportsCo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Mar 2025",
     points: [
       "Developed backend services for multiple Telegram Mini Apps using NestJS, Kafka, and Redis Streams.",
       "Implemented GraphQL APIs and GraphQL Federation to enhance data interaction across microservices.",
@@ -191,6 +192,21 @@ const experiences = [
       "Implemented leaderboard, referral, and streak reward modules for user retention and engagement.",
       "Developed event-driven microservices architecture using Kafka and Redis Streams for real-time gaming applications.",
       "Designed and optimized backend performance for high-traffic gaming applications with a focus on scalability.",
+    ],
+  },
+ {
+    title: "Developer",
+    company_name: "SunHive Solutions Private Limited (under AndersenLab)",
+    icon: andersen,
+    iconBg: "#E6DEDD",
+    date: "May 2025  - Present",
+    points: [
+   "Implementing new features and components",
+   "Creating APIs for facility and managing doctor's schedule",
+   "Providing technical support and maintenance",
+   "Implementing good design practices, promoting code reuse, and writing efficient scalable code",
+    "Refactoring code to improve readability and maintainability",
+    "Diagnosing and resolving software issues through debugging and upgrading processes"
     ],
   },
 ];
