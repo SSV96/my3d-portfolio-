@@ -33,7 +33,7 @@ import dotnet from "./tech/dotnet.png";
 import blocktena from "./company/blocktena.png";
 import leagueSportsCo from "./company/lsc.jpg";
 import LinkedIn from "./company/linkedin_logo.jpg";
-
+import andersen from "./company/andersen.png";
 import CreatingAndHostingAFullStackSite from "./certification/CreatingAndHostingAFullStackSite.png";
 import HtmlEssentialTrainingLinkedIn from "./certification/HtmlEssentialTrainingLinkedIn.png";
 import NodejsIntermediate from "./certification/NodejsIntermediate.png";
@@ -71,6 +71,7 @@ export {
   threejs,
   blocktena,
   leagueSportsCo,
+  andersen,
   LinkedIn,
   CreatingAndHostingAFullStackSite,
   HtmlEssentialTrainingLinkedIn,
